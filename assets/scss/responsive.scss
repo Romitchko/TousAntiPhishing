@@ -1,0 +1,125 @@
+@media (max-width: 1024px){
+	
+	.tp-leftarrow, .tp-rightarrow {
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.tp-leftarrow {
+		left: -15px !important;
+	}
+
+	.tp-rightarrow {
+		left: 101% !important;
+	}
+
+	.tparrows:before {
+		line-height: 25px !important;
+	}
+
+	
+}
+
+
+@media (max-width: 992px){
+	
+
+}
+
+@media (max-width: 767px){
+	
+
+	.parallax {
+		background-attachment: inherit;
+	}
+
+	.mbl-margin-20 {
+		margin: 20px;
+	}
+
+	
+
+	.feature-box .feature-post {
+		width: 50%;
+	}
+
+	.othelo-tab .nav-tabs > li {
+		width: 32%;
+		display: inline-block;
+	}
+
+	.othelo-tab .nav-tabs > li.active:before, 
+	.othelo-tab .nav-tabs > li:hover:before {
+		display: none;
+	}
+
+	.othelo-tab .tab-content .tab-pane {
+		img {
+			margin-bottom: 30px;
+		}
+	}
+
+	ul.filter li {
+		margin-bottom: 30px;
+		a {
+		    padding: 6px 10px;
+		}
+	}
+
+	.form-section .full-height {
+		padding: 50px 50px;
+	}
+	#map {
+		display: none;
+	}
+
+	.animated-counter-section {
+		margin-top: 40px;
+	}
+	
+	
+	ul.filter {
+		margin-bottom: 30px;
+	}
+
+	.banner {
+		padding: 120px 0 100px 0;
+
+		h1 {
+			font-size: 40px;
+			line-height: 50px;
+		}
+	}
+
+	.testimonial-slide .carousel-inner .item {
+		padding-bottom: 80px;
+	}
+
+	.testimonial-slide .carousel-indicators {
+		bottom: -20px;
+	}
+	
+	.resume-btn {
+		margin-bottom: 30px;
+	}
+
+	.preview-banner {
+		padding: 100px 0;
+	}
+
+}
+
+@media (max-width: 480px){
+	
+	.feature-box .feature-post {
+		width: 100%;
+	}
+	
+	.call-to-action h2 a {
+		margin-left: 0;
+		margin-top: 30px;
+	}
+
+
+}
+

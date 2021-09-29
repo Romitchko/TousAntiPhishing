@@ -1,0 +1,74 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/06/2017 11:44
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-city:before { content: "\f100"; }
+.flaticon-constructor-with-hat-and-a-gear:before { content: "\f101"; }
+.flaticon-construction-6:before { content: "\f102"; }
+.flaticon-drawing-1:before { content: "\f103"; }
+.flaticon-construction-5:before { content: "\f104"; }
+.flaticon-water-2:before { content: "\f105"; }
+.flaticon-water-1:before { content: "\f106"; }
+.flaticon-water:before { content: "\f107"; }
+.flaticon-oil-1:before { content: "\f108"; }
+.flaticon-oil:before { content: "\f109"; }
+.flaticon-energy:before { content: "\f10a"; }
+.flaticon-construction-4:before { content: "\f10b"; }
+.flaticon-people:before { content: "\f10c"; }
+.flaticon-security:before { content: "\f10d"; }
+.flaticon-drawing:before { content: "\f10e"; }
+.flaticon-roller:before { content: "\f10f"; }
+.flaticon-tool-5:before { content: "\f110"; }
+.flaticon-demolition-tool-transport-with-weight-ball:before { content: "\f111"; }
+.flaticon-worker-of-construction-working-with-a-shovel-beside-material-pile:before { content: "\f112"; }
+.flaticon-paint:before { content: "\f113"; }
+.flaticon-truck-transport-with-construction-materials:before { content: "\f114"; }
+.flaticon-construction-tool-vehicle-with-crane-lifting-materials:before { content: "\f115"; }
+.flaticon-construction-vehicle-for-concrete-transportation:before { content: "\f116"; }
+.flaticon-drill:before { content: "\f117"; }
+.flaticon-tool-4:before { content: "\f118"; }
+.flaticon-tool-3:before { content: "\f119"; }
+.flaticon-tool-2:before { content: "\f11a"; }
+.flaticon-tool-1:before { content: "\f11b"; }
+.flaticon-tool:before { content: "\f11c"; }
+.flaticon-construction-3:before { content: "\f11d"; }
+.flaticon-construction-2:before { content: "\f11e"; }
+.flaticon-cone:before { content: "\f11f"; }
+.flaticon-wrench-1:before { content: "\f120"; }
+.flaticon-construction-1:before { content: "\f121"; }
+.flaticon-technology-2:before { content: "\f122"; }
+.flaticon-technology-1:before { content: "\f123"; }
+.flaticon-technology:before { content: "\f124"; }
+.flaticon-construction:before { content: "\f125"; }
+.flaticon-improvement:before { content: "\f126"; }
+.flaticon-wall:before { content: "\f127"; }
+.flaticon-wrench:before { content: "\f128"; }
+.flaticon-door:before { content: "\f129"; }
+.flaticon-transport:before { content: "\f12a"; }

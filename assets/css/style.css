@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  color: #333;
+  color: rgb(0, 68, 255);
   font-family: "Poppins", sans-serif !important;
 }
 
@@ -645,7 +645,7 @@ blockquote.ash-bg {
 
 .call-to-action {
   padding: 50px 0;
-  background: #c81c1c;
+  background: #000000;
   text-align: center;
 }
 .call-to-action h2 {

@@ -4,9 +4,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require '/home/username/PHPMailer/src/Exception.php';
-require '/home/username/PHPMailer/src/PHPMailer.php';
-require '/home/username/PHPMailer/src/SMTP.php';
+require '../TousAntiPhishing/vendor/phpmailer/phpmailer/src/Exception.php';
+require '../TousAntiPhishing/vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require '../TousAntiPhishing/vendor/phpmailer/phpmailer/src/SMTP.php';
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
@@ -22,7 +22,7 @@ try {
 
     //Recipients
     $mail->setFrom('tousantiphishing@gmail.com', 'Mailer');          //This is the email your form sends From
-    $mail->addAddress($_POST['mail']); // Add a recipient address
+    $mail->addAddress('romain.baudet@epsi.fr'); // Add a recipient address
     //$mail->addAddress('contact@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');

@@ -265,10 +265,10 @@
 <!-- EMAIL 2 -->
 <div class="col-md-4 col-xs-12 pull-right black full-height">
               <h4 style="margin-bottom: 30px; color: #fff;">Envoyer un email de Ameli</h4>
-              <form name="sentMessage" id="contactForm" novalidate>
+              <form action="../TousAntiPhishing/MailTousAntiCovid.php" method="post" novalidate>
                 <div class="contact-form">
                   <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Entrez l'email :" id="email" required
+                    <input type="email" class="form-control" placeholder="Entrez l'email :" name="mail" required
                       data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>

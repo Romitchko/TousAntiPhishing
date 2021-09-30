@@ -44,5 +44,13 @@ try {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 }
+    if(!$mail->send())
+    {
+        echo "Mailer Error: " . $mail->ErrorInfo;
+    }
+    else
+    {
+        header("../TousAntiPhishing/index.html");
+    }
 
 ?>

@@ -54,7 +54,7 @@ try {
     }
     else
     {
-        header("Location: ../TousAntiPhishing/index.html");
+        header("Location: ../TousAntiPhishing/Redirection_mail_envoyer.html");
     }
 
 ?>

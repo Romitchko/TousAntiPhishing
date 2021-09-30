@@ -14,7 +14,8 @@ try {
     $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';                  // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+    $mail->SMTPAuth = true;                         // Enable SMTP authentication
+    $mail->SMTPDebug = 0;                             
     $mail->Username = 'tousantiphishing@gmail.com';             // SMTP username
     $mail->Password = 'epsi12345';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable SSL encryption, TLS also accepted with port 465
@@ -35,6 +36,7 @@ try {
     //Content
     $mail->CharSet = 'UTF-8';
     $mail->Encoding = 'base64';
+    $mail->ContentType = 'text/html';
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = "Remboursement Ameli";
     $mail->Body = file_get_contents('../TousAntiPhishing/Mail-ameli.html');
@@ -52,7 +54,7 @@ try {
     }
     else
     {
-        header("../TousAntiPhishing/index.html");
+        header("Location: ../TousAntiPhishing/index.html");
     }
 
 ?>

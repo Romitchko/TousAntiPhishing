@@ -33,9 +33,11 @@ try {
     //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
     //Content
+    $mail->CharSet = 'UTF-8';
+    $mail->Encoding = 'base64';
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = "Votre pass sanitaire";
-    $mail->Body = "Suite à votre dernier rendez-vous, veuillez trouver ci-joint votre pass sanitaire sur la plateforme Ameli.";
+    $mail->Subject = "Remboursement Ameli";
+    $mail->Body = file_get_contents('../TousAntiPhishing/Mail-ameli.html');
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

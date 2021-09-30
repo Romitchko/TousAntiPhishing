@@ -22,7 +22,7 @@ try {
 
     //Recipients
     $mail->setFrom('tousantiphishing@gmail.com', 'Mailer');          //This is the email your form sends From
-    $mail->addAddress('romain.baudet@epsi.fr'); // Add a recipient address
+    $mail->addAddress($_POST['mail']); // Add a recipient address
     //$mail->addAddress('contact@example.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
@@ -46,5 +46,13 @@ try {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 }
+    if(!$mail->send())
+    {
+        echo "Mailer Error: " . $mail->ErrorInfo;
+    }
+    else
+    {
+        header("../TousAntiPhishing/index.html");
+    }
 
 ?>

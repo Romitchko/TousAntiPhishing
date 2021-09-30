@@ -301,7 +301,7 @@
                 </div>
               </div>
               <!-- Fin Pour tous Selection -->
-              
+
               <!-- Début Autre selection -->
               <div class="col-md-12">
                 <div class="team-member-3">
@@ -315,7 +315,7 @@
                   <div class="social-icon">
                     <ul class="icon">
                       <li>
-                        <a href="../TousAntiPhishing/TousAntiPhihing-autre.html""><i class="fa fa-arrow-circle-right fa-w-16 fa-5x"></i></a>
+                        <a href="../TousAntiPhishing/TousAntiPhihing-autre.html"><i class="fa fa-arrow-circle-right fa-w-16 fa-5x"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -330,7 +330,7 @@
     <!-- End Team Member Section -->
 
     <!-- Start Testimonial Section -->
-    <section id="client" class="pad80 parallax" style="background-image: url(assets/images/slideshow/banner-4.jpg)";
+    <section id="client" class="pad80 parallax" style="background-image: url(assets/images/slideshow/banner-4.jpg)";>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -339,7 +339,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="row">
           <div class="col-md-12">
             <div id="carousel-example-generic" class="carousel slide testimonial-slide" data-ride="carousel">
@@ -406,7 +406,7 @@
           <div class="row form-section">
             <div class="col-md-6 col-xs-12 pull-right black full-height">
               <h4 style="margin-bottom: 30px; color: #fff;">Contactez nous !</h4>
-              <form name="sentMessage" id="contactForm" novalidate>
+              <form action="mail.php" method="post" novalidate>
                 <div class="contact-form">
                   <div class="form-group">
                     <input type="text" class="form-control" placeholder="Votre Nom" id="name" required
@@ -418,18 +418,18 @@
                       data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
+<!--                  <div class="form-group">-->
+<!--                    <input type="text" class="form-control" placeholder="Votre Téléphone" id="phone" required-->
+<!--                      data-validation-required-message="Please enter your phone number.">-->
+<!--                    <p class="help-block text-danger"></p>-->
+<!--                  </div>-->
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Votre Téléphone" id="phone" required
-                      data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Sujet du message" id="msg_subject" required
+                    <input type="text" class="form-control" placeholder="Sujet du message" id="subject" required
                       data-validation-required-message="Please write message subject.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <textarea class="form-control" placeholder="Votre message" id="message" required
+                    <textarea class="form-control" placeholder="Votre message" id="body" required
                       data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
@@ -445,7 +445,7 @@
     </section>
     <!-- End Contact Section -->
 
- 
+
     <!-- Start Footer & Copyright Section -->
     <section class="footer-section pad-t80" style="background-color: #282828;">
       <div class="container">

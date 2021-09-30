@@ -258,8 +258,13 @@
 
                   <div class="clearfix"></div>
                   <div id="success"></div>
-                  <button type="submit" class="btn btn-primary">Envoyer</button>
+                  <button type="submit" name="send" class="btn btn-primary">Envoyer</button>
                 </div>
+                  <?
+                    if(array_key_exists('send', $_POST)) {
+                        sendGenericMail();
+                    }
+                  ?>
               </form>
             </div>
 <!-- EMAIL 2 -->
